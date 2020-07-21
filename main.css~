@@ -1,0 +1,69 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background:#848482; 
+}
+
+hr {
+	display:block;
+	height: 1px;
+	border: 0;
+	border-top: 3px solid #848482 !important;
+  margin: 1em auto;
+  padding: 0;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+	background:#009bad;
+}
+
+.name {
+	padding:4rem;
+}
+
+.services {
+	padding: 2rem;
+}
+
+.about {
+	padding: 2rem;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.about {
+}
