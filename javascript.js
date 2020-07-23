@@ -33,6 +33,10 @@ function topFunction() {
 
 function language(){
 	console.log("language");
+	window.location.reload();
+    //console.error("Error:", error);
+/*	window.location.replace("http://localhost/bootstrap/en.html");
+*/
 }
 
 function homePage() {

@@ -38,6 +38,11 @@ hr {
   padding: 0;
 }
 
+#english-btn, #greek-btn {
+  background-color: #181818;
+  border-color: #181818;
+}
+
 .nav-link,
 .navbar-brand {
   color: #fff;
