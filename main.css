@@ -28,15 +28,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background:/*#848482;*/ #181818;
 }
 
-/*hr {
-	display:block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #848482 !important;
-  margin: 1em auto;
-  padding: 0;
-}*/
-
 #english-btn, #greek-btn {
   background-color: #181818;
   border-color: #181818;
@@ -63,13 +54,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .header {
 	background:#2c3e50;
-  /*font-family: 'open_sansregular';
-  height: 500px;*/
-  /*background: 255,255,255;*/
 }
 
 .card {
-  /*width: 50rem;*/
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
@@ -79,7 +66,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-size: 50px;
   font-family: 'open_sanssemibold' !important;
   text-align: center;
-/*  background-size: 100% auto;*/
 }
 
 #services {
@@ -138,7 +124,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .page-footer {
   background-color: #181818;
   color: #fff;
-  /*padding: 60px 0 30px;*/
   padding: 20px;
   flex-shrink: 0;
 }
@@ -173,6 +158,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     top: 10%;
     transform: none;
     text-align: center;
+  }
+  
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
   }
   
   .header h1 {
