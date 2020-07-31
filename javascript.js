@@ -2,6 +2,10 @@ $(document).ready(function(){
 		$('header').height($(window).height()/1.5);
 })
 
+/*$(document).ready(function(){
+		$('header').width($(window).width());
+})*/
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 

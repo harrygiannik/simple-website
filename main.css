@@ -1,16 +1,15 @@
 html {
 	scroll-behavior: smooth;
   /*height: 100%;*/
-  background-color: #f2f6e9 !important; 
+  background-color: #f2f6e9 !important;
+
 }
 
 body {
   padding: 0;
   margin: 0;
   background: #f2f6e9;
-/*  display: flex;
-  flex-direction: column;
-  height: 100vh;*/
+  /*font-family: open_sansregular !important*/;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -29,14 +28,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background:/*#848482;*/ #181818;
 }
 
-hr {
+/*hr {
 	display:block;
 	height: 1px;
 	border: 0;
 	border-top: 1px solid #848482 !important;
   margin: 1em auto;
   padding: 0;
-}
+}*/
 
 #english-btn, #greek-btn {
   background-color: #181818;
@@ -64,7 +63,8 @@ hr {
 
 .header {
 	background:#2c3e50;
-  /*height: 500px;*/
+  /*font-family: 'open_sansregular';
+  height: 500px;*/
   /*background: 255,255,255;*/
 }
 
@@ -77,6 +77,9 @@ hr {
 
 #home {
   font-size: 50px;
+  font-family: 'open_sanssemibold' !important;
+  text-align: center;
+/*  background-size: 100% auto;*/
 }
 
 #services {
@@ -160,12 +163,8 @@ hr {
   border-radius: 10px; /* Rounded corners */
   font-size: 50px; /* Increase font size */
 }
-/*
-.card-header > .card-header {
-  background-color: red;
-}*/
 
-/*@media (max-width: 575.98px) {
+@media (max-width: 575.98px) {
 
   .description {
     left: 0;
@@ -176,8 +175,26 @@ hr {
     text-align: center;
   }
   
-  .description h1 {
-    font-size: 2em;
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header h3 {
+    font-size: 1.5rem;
+  }
+
+  .about h2{
+    font-size: 1.75rem;
+  }
+  .about h4{
+    font-size: 1.25rem;
+  }
+
+  .services h2{
+    font-size: 1.75rem;
+  }
+  .services h4{
+    font-size: 1.25rem;
   }
   
   .description p {
@@ -188,4 +205,4 @@ hr {
     margin: 0;
   }
 
-}*/
+}
