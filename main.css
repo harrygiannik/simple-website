@@ -38,14 +38,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #fff;
   cursor: pointer;
 }
-
+.navbar-brand:hover{
+  color:rgb(206, 202, 202);
+}
 .nav-link {
   margin-right: 1em !important;
   font-size: 15px;
 }
 
 .nav-link:hover {
-  color: #000;
+  color: rgb(206, 202, 202);
 }
 
 .navbar-collapse {
